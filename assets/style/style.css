@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 
-/* html{
+html{
   background-color: #d9d9d9;
-} */
+}
 
-/* header {
+header {
     height: 70vh;
-    background: url(../img/coldplay.webp);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-} */
+}
+
 
 .navbar {
   /* overflow: hidden; */
@@ -94,6 +94,10 @@
   display: block;
 }
 
+section{
+  margin-top: 20%;
+}
+
 h1 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -104,14 +108,76 @@ h1 {
     font-weight: bolder;
 }
 
-.new-content .content {
+@media screen and (max-width: 1920px) and (min-width: 815px) {
+  iframe {
+      height: 315;
+      width: 560;
+  }
+
+  .new-content .content {
     margin: 50px 30px;
     padding: 40px;
     background-color: rgb(158, 158, 158);
     border-radius: 20px;
     box-shadow: 5px 10px 28px #888888;
     height: 410px;
+  }
+
+  .text p {
+    position: relative;
+    padding-top: 15vh;
+  }
 }
+
+
+@media screen and (max-width: 815px) and (min-width: 320px) {
+  iframe {
+      height: 315;
+      width: 560;
+      margin-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .new-content .content {
+    margin: 50px 30px;
+    padding: 40px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 20px;
+    box-shadow: 5px 10px 28px #888888;
+    height: 600px;
+  }
+
+  .text p {
+    position: relative;
+    padding-top: 5vh;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  iframe {
+    height: 315;
+    width: 60;
+    margin-bottom: 30px;
+  }
+
+  .new-content .content {
+    margin: 50px 30px;
+    padding: 40px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 20px;
+    box-shadow: 5px 10px 28px #888888;
+    height: 600px;
+  }
+
+  .text p {
+    position: relative;
+    padding-top: 5vh;
+  }
+}
+
+
 
 .content .video {
     float: left;
@@ -128,11 +194,6 @@ iframe {
     color: black;
 }
 
-.text p {
-  position: relative;
-  padding-top: 15vh;
-}
-
 .artist-content {
     text-align: center;
     width: 70%;
@@ -142,37 +203,38 @@ iframe {
 }
 
 ul.artist-profile:nth-child(1){
-    width: 100%;
-    list-style: none;
-    text-align: center;
-    display: block;
+  margin: auto;
+  width: fit-content;
+  list-style: none;
+  text-align: center;
+  display: block;
 }
 
 ul.artist-profile:nth-child(1) li{
-    background-color: rgb(225, 225, 225);
-    border-radius: 50%;
-    float: left;
-    height: 300px;
-    width: 300px;
-    margin: 20px;
-    box-shadow: 5px 10px 28px #cbcbcb;
+  background-color: rgb(225, 225, 225);
+  border-radius: 50%;
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 5px 10px 28px #cbcbcb;
 }
 
 ul.artist-profile:nth-child(2){
-    margin-left: 16%;
-    width: 100%;
-    list-style: none;
-    text-align: center;
-    display: block;
+  margin: auto;
+  width: fit-content;
+  list-style: none;
+  text-align: center;
+  display: block;
 }
 
 ul.artist-profile:nth-child(2) li{
-    float: left;
-    background-color: rgb(225, 225, 225);
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    margin: 20px;
-    box-shadow: 5px 10px 28px #cbcbcb;
+  float: left;
+  background-color: rgb(225, 225, 225);
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 5px 10px 28px #cbcbcb;
 }
 

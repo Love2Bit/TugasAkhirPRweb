@@ -2,6 +2,7 @@
 .slider-wrapper{ 
     position: relative;
     max-width: 48rem;
+    height: 100%;
     margin: 0 auto;
 }
 .slider{
@@ -15,6 +16,7 @@
 .slider img{
     flex: 1 0 100%;
     scroll-snap-align: start;
+    object-fit: cover;
     /* animation: runSlider 30s ease infinite; */
 }
 .slider-nav{
