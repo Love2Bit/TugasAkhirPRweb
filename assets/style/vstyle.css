@@ -57,3 +57,16 @@
     height: 100vh;
 }
 
+.content-artist{
+    position: absolute;
+    top:20%;
+    color: wheat;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.content-artist .artist-name{
+    letter-spacing: 2px;
+}
+

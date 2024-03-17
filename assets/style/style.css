@@ -26,7 +26,6 @@ header {
   width: 100%;
 }
 
-
 .navbar a {
   float: left;
   font-size: 16px;
@@ -38,6 +37,11 @@ header {
   font-weight: bold;
   text-shadow: 0px 0px 10px #ffffff;
   color: rgb(151, 151, 151) !important;
+}
+
+.logo img{ 
+  width: 3vw;
+  height: 3vh;
 }
 
 .dropdown {
