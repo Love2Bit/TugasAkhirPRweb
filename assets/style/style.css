@@ -285,4 +285,5 @@ li img {
 .artist-profile li a:hover {
   filter: grayscale(0);
   transition: all 1s;
+  
 }
