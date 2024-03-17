@@ -240,7 +240,7 @@ ul.artist-profile:nth-child(1){
 ul.artist-profile:nth-child(1) li{
   float: left;
   height: 300px;
-  width: 300px;
+  width: 300px; 
   margin: 20px;
   box-shadow: 5px 10px 28px #cbcbcb;
 }
@@ -280,4 +280,5 @@ li img {
 
 .artist-profile li a:hover {
   filter: grayscale(0);
+  transition: all 1s;
 }
