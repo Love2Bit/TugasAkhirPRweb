@@ -24,6 +24,7 @@ header {
   backdrop-filter: blur(10px);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
   width: 100%;
+  z-index: 1;
 }
 
 .navbar a {
@@ -129,6 +130,7 @@ header {
 
 section{
   margin-top: 20%;
+  display: flex;
 }
 
 h1 {
@@ -230,7 +232,8 @@ iframe {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 ul.artist-profile:nth-child(1){
@@ -284,6 +287,26 @@ li img {
 
 .artist-profile li a:hover {
   filter: grayscale(0);
-  transition: all 1s;
-  
+  transition: all 0.9s;
+}
+
+footer {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100px;
+  clear: left;
+  background-color: #888888;
+  align-items: last baseline;
+  justify-content: center;
+}
+
+footer p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 10px;
+  font-weight: bold;
 }
