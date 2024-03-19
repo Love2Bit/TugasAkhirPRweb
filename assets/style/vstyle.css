@@ -55,6 +55,7 @@
 .slider img{
     filter: brightness(0.7) grayscale(1);
     height: 100vh;
+    width: 100vw;
 }
 
 .content-artist{
