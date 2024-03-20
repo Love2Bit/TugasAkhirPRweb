@@ -71,3 +71,6 @@
     letter-spacing: 2px;
 }
 
+.items1, .items2, .items3, .items4, .items5 {
+    position: relative;
+}
