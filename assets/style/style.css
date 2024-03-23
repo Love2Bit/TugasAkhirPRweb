@@ -200,18 +200,19 @@ header {
   margin-left: 5%;
   margin-top: 7%;
   font-size: medium;
-  color: rgb(244, 229, 203);
+  /* color: rgb(244, 229, 203); */
+  color: whitesmoke;
 }
 
 .content-artist .artist-name{
   letter-spacing: 5px;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .content-artist .desc{
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: large;
 }
 
 .items1, .items2, .items3, .items4, .items5 {
