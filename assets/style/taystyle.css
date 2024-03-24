@@ -88,6 +88,11 @@ header {
     background:none;
 }
 
+::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+
 #search-bar {
     border: 0;
     outline: 0;
