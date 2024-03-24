@@ -211,8 +211,9 @@ header {
 }
 
 .content-artist .desc{
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: large;
+  
 }
 
 .items1, .items2, .items3, .items4, .items5 {
