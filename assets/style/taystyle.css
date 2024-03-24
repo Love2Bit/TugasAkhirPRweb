@@ -20,6 +20,7 @@ header {
     font-family: Arial;
     position: fixed;
     top: 0;
+    left: 0;
     backdrop-filter: blur(10px);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
     width: 100%;
@@ -169,7 +170,6 @@ h1{
     width: 300px;
     height: 250px;
     /* margin-top: 20%; */
-    z-index: 1;
     transition: 0.5s;
 }
 
@@ -191,6 +191,7 @@ h1{
     border-radius: 20px;
     overflow: hidden;
     margin-top: 55%;
+    z-index: -1;
 }
 
 .card img{
