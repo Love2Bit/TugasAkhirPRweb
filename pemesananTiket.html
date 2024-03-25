@@ -11,9 +11,9 @@
 <body>
     <header>
         <div class="navbar">
-            <a href="#Logo" class="logo"><img src="assets/img/AVH gray.png" alt="AHV"></a>
+            <a href="index.html" class="logo"><img src="assets/img/AVH gray.png" alt="AHV"></a>
             <a href="#New">What's New</a>
-            <a href="#Artist">Artist</a>
+            <a href="index.html/#Artist">Artist</a>
             <div class="dropdown">
                 <button class="dropbtn">Location <i class="fa-solid fa-caret-down"></i></button>
                 <div class="dropdown-content">
@@ -30,111 +30,106 @@
         </div>
     </header>
     <section>
-        <br>
         <div class="container-tiket">
             <h1> order here</h1>
         </div>
-        <br>
-        <div class="stage">
-            <h2> STAGE LAYOUT</h2>
-            <img src="assets/img/pembelian_tiket/stage.png" alt="layout stage">
-        </div>
-        <div class="location">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030766.7298552273!2d104.36280785625!3d-6.2186488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14d30079f01%3A0x2e74f2341fff266d!2sStadion%20Utama%20Gelora%20Bung%20Karno!5e0!3m2!1sid!2sid!4v1711257975240!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <!-- ini keknya salah soalnya aku bingung -->
-        <!-- tolong di perbaiki -->
-        <div class="price">
-            <h4>price</h4> 
+        <div class="details">
+            <div class="stage">
+                <h2> STAGE LAYOUT</h2>
+                <img src="assets/img/pembelian_tiket/stage.png" alt="layout stage">
+            </div>
+            <div class="price">
+            <h4>PRICE</h4> 
             <table>
                 <tr>
+                    <td>&nbsp;</td>
                     <td><b>VIP</b></td>
                     
                 </tr>
                 <tr>
+                    <td>&nbsp;</td>
                     <td>Capacity</td>
-                    <td>1.500 Seats</td>
+                    <td>&nbsp;1.500 Seats</td>
                 </tr>
                 <tr>
+                    <td>&nbsp;</td>
                     <td>Price</td>
-                    <td>$641.79</td>
+                    <td>&nbsp;$641.79</td>
                 </tr>
 
                 <tr>
+                    <td>&nbsp;</td>
                     <td><b>Reguler</b></td>
                 </tr>
                 <tr>
+                    <td>&nbsp;</td>
                     <td>Capacity</td>
-                    <td>3.000 Seats</td>
+                    <td>&nbsp;3.000 Seats</td>
                 </tr>
                 <tr>
+                    <td>&nbsp;</td>
                     <td>Price</td>
-                    <td>$513.43</td>
+                    <td>&nbsp;$513.43</td>
                 </tr>
 
                 <tr>
+                    <td>&nbsp;</td>
                     <td><b>Tribun</b></td>
                 </tr>
                 <tr>
+                    <td>&nbsp;</td>
                     <td>Capacity</td>
-                    <td>5.000 Seats</td>
+                    <td>&nbsp;5.000 Seats</td>
                 </tr>
                 <tr>
+                    <td>&nbsp;</td>
                     <td>Price</td>
-                    <td>$320.89</td>
+                    <td>&nbsp;$320.89</td>
                 </tr>
             </table>
+            </div>
+            <div class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030766.7298552273!2d104.36280785625!3d-6.2186488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14d30079f01%3A0x2e74f2341fff266d!2sStadion%20Utama%20Gelora%20Bung%20Karno!5e0!3m2!1sid!2sid!4v1711257975240!5m2!1sid!2sid" width="400" height="245" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
+        <!-- ini keknya salah soalnya aku bingung -->
+        <!-- tolong di perbaiki -->
         <!-- haloo ini gamau rapih -->
         <div class="order">
             <h1><center>ORDER YOUR SEAT</center></h1>
         </div>
+        <div class="form-tiket">
             <form action="summary.html">
                 <table>
-                    <div>
                    <tr>
-                    <label> Name</label>
-                    <tr>:</tr>
-                    <input type="text">
+                    <td>Name</td>
+                    <td> : <input type="text" name="name" id="name" required placeholder="Type your name..."></td>
                    </tr>
-                    </div>
-                   <div>
-                    <br>
-                    <tr>
-                     <label> Email</label>
-                     <tr>:</tr>
-                     <input type="email">
-                    </tr>
-                     </div>
-                     <div>
-                    <br>
-                    <tr>
-                     <label> Phone Number</label>
-                     <tr>:</tr>
-                     <input type="number">
-                    </tr>
-                     </div>
-                    <div>
-                    <br>
-                    <tr>
-                     <label> Seat</label>
-                     <tr>:</tr>
-                     <select name="Seat">
-                        <option value="0">--Level--</option>
-                        <option value="1">VIP</option>
-                        <option value="2">Reguler</option>
-                        <option value="3">Tribun</option>
-                     </select>
-
-                    </tr>
-                     </div>
+                   <tr>
+                    <td>Email</td>
+                    <td> : <input type="text" name="name" id="name" required placeholder="Type your email..."></td>
+                   </tr>
+                   <tr>
+                    <td>Phone Number</td>
+                    <td> : <input type="text" name="name" id="name" required placeholder="Type your phone number..."></td>
+                   </tr>
+                   <tr>
+                    <td><label for="seat">Seat</label></td>
+                    <td> : 
+                        <select name="seat" id="seat">
+                            <option value="pilih-seat" selected disabled>Pilih Seat</option>
+                            <option value="vip">VIP</option>
+                            <option value="reguler">Reguler</option>
+                            <option value="tribun">Tribun</option>
+                        </select>
+                    </td>
+                   </tr>
+                   <tr>
+                    <td><button type="submit">Submit</button></td>
+                   </tr>
                 </table>
-
             </form>
-            <div class="submit">
-                <p>Submit</p>
-                <input type="submit"
-            </div>
+        </div>
     </section>
     <footer>
         <p>Copyright &copy; AVH Tickets / MinPro 2024</p>
