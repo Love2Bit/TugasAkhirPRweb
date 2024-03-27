@@ -169,7 +169,7 @@ header {
   scroll-snap-align: start;
   object-fit: cover;
   display: block;
-  animation: slideAnimation 12s ease infinite; /* Adjust timing and duration as needed */
+  animation: slideAnimation 20s ease infinite; /* Adjust timing and duration as needed */
 }
 /* @keyFrames runSlider{
   from{
@@ -225,7 +225,7 @@ header {
   font-size: medium;
   /* color: rgb(244, 229, 203); */
   color: whitesmoke;
-  animation: slidetext 12s ease infinite;
+  animation: slidetext 20s ease infinite;
 }
 
 @keyframes slidetext {
@@ -233,7 +233,7 @@ header {
   25%, 40% { transform: translateX(calc(-330% * 1)); }
   45%, 60% { transform: translateX(calc(-330% * 2)); }
   65%, 75% { transform: translateX(calc(-330% * 3)); }
-  85%, 95% { transform: translateX(calc(-330% * 4)); }
+  85%, 95% { transform: translateX(calc(-333% * 4)); }
   -100% { transform: translateX(calc(-100% * 5)); }
 }
 
