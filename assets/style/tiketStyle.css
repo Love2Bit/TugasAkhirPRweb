@@ -2,6 +2,7 @@
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -133,6 +134,10 @@ body{
   background: transparent;
   color: white;
   border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.details {
+  margin-right: 0;
 }
 
 @media screen and (max-width: 1920px) and (min-width: 815px) {
