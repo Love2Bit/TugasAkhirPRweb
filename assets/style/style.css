@@ -185,7 +185,7 @@ header {
   45%, 60% { transform: translateX(calc(-100% * 2)); }
   65%, 75% { transform: translateX(calc(-100% * 3)); }
   85%, 95% { transform: translateX(calc(-100% * 4)); }
-  -100% { transform: translateX(calc(-100% * 5)); }
+  500% { transform: translateX(calc(-100% * 5)); }
 }
 .slider-nav{
   display: flex;
@@ -234,7 +234,7 @@ header {
   45%, 60% { transform: translateX(calc(-330% * 2)); }
   65%, 75% { transform: translateX(calc(-330% * 3)); }
   85%, 95% { transform: translateX(calc(-333% * 4)); }
-  -100% { transform: translateX(calc(-100% * 5)); }
+  500% { transform: translateX(calc(-100% * 5)); }
 }
 
 .content-artist .artist-name{
