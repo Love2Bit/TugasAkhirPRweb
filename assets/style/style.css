@@ -411,9 +411,10 @@ li img {
 
 .artist-profile li a:link, a:visited, a:active {
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
+  letter-spacing: 1px;
   color: black;
   filter: grayscale(1);
 }

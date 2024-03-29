@@ -183,6 +183,17 @@ h1{
     text-align: justify;
 }
 
+.card .title{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 2.5rem;    
+    margin-left: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
 .box{
     width: 300px;
     height: 50px;
@@ -229,8 +240,56 @@ h1{
     }
     100%{
         width: 400px;
-        height: 300px;
+        height: 350px;
         box-shadow: 0px 0px 30px grey;
     }
 }
 
+
+.tour table{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour h2{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: left;
+    font-size: 2.5rem;    
+    font-weight: bolder;
+    margin-left: 30px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: -140px;
+}
+
+.tour td{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td:nth-child(3){
+    color: whitesmoke;
+}
+
+.tour a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(129, 129, 129);
+    border-radius: 20px;
+}
+
+.tour a:hover{
+    background-color: rgb(129, 129, 129);
+    color: rgb(255, 255, 255);
+}
