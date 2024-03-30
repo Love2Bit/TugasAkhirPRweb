@@ -151,11 +151,12 @@ body{
     float: left;
     width: 45%;
     margin-right: 30px;
-    background-color: rgb(169, 169, 169);
     padding: 20px 20px 90px 20px;
     margin-left: 20px;
-    border-radius: 20px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    background: #cdcdcd;
+    box-shadow:  35px 35px 70px #aeaeae,
+             -35px -35px 70px #ececec;
   }
 
   .stage h2 {
@@ -169,13 +170,14 @@ body{
   }
 
   .price {
-    background-color: rgb(169, 169, 169);
-    margin-left: 50%;
+    margin-left: 53%;
     margin-right: 20%;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    background: #cdcdcd;
+    box-shadow:  35px 35px 70px #aeaeae,
+             -35px -35px 70px #ececec;
   }
 
   .price tr:nth-child(1) td:nth-child(1), .price tr:nth-child(4) td:nth-child(1), .price tr:nth-child(7) td:nth-child(1) {
@@ -197,17 +199,21 @@ body{
   }
 
   .location {
-    background-color: rgb(169, 169, 169);
-    margin-left: 50%;
+    margin-left: 53%;
     margin-right: 20%;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    background: #cdcdcd;
+    box-shadow:  15px 15px 30px #aeaeae,
+             -15px -15px 30px #ececec;
   }
 
   .location iframe {
-    border-radius: 15px;
+    border-radius: 30px;
+    border: 0;
+    width: 355px;
+    height: 245px;
   }
 
   .order {
@@ -228,12 +234,13 @@ td {
 .form-tiket form {
   display: flex;
   justify-content: center;
-  background-color: rgb(169, 169, 169);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
   margin-right: 37%;
   margin-left: 37%;
   padding: 40px 10px;
-  border-radius: 20px;
+  border-radius: 50px;
+  background: #cdcdcd;
+  box-shadow:  15px 15px 30px #aeaeae,
+             -15px -15px 30px #ececec;
 }
 
 .form-tiket form button {
