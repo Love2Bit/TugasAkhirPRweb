@@ -152,7 +152,7 @@ body{
   width: 45%;
   margin-right: 30px;
   padding: 20px 20px 90px 20px;
-  margin-left: 100px;
+  margin-left: 20px;
   border-radius: 50px;
   background: #cdcdcd;
   box-shadow:  35px 35px 70px #aeaeae,
@@ -171,7 +171,7 @@ body{
 }
 
 .price {
-  margin-left: 100px;
+  margin-left: 53%;
   margin-right: 20%;
   padding: 20px;
   margin-bottom: 20px;
